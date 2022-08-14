@@ -1,0 +1,10 @@
+.modal-body label {
+  color: #fff;
+}
+.modal-content {
+  /* background-color: red !important; */
+}
+
+.view-password img:hover {
+  outline: none;
+}

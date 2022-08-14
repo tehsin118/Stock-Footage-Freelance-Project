@@ -1,0 +1,91 @@
+.Hero {
+  background: url("D:\DESIGNER & CLIENT OPINION\client\public\Images\Hero\HeroBg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Hero .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  color: #ffffff;
+}
+
+.search-hero {
+  display: flex;
+  align-items: center;
+  padding: 13px;
+  width: 66%;
+  height: 51px;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.search-hero input {
+  background: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  font-weight: 600;
+  font-size: 16px;
+  transition: 0.8s;
+  color: #000;
+  padding-left: 10px;
+}
+
+.top-btn .btn-dark {
+  margin-right: 40px;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  .btn-dark,
+  .btn-light {
+    width: 162px;
+    height: 48px;
+  }
+
+  .search-hero {
+    display: flex;
+    align-items: center;
+    padding: 13px;
+    width: 80%;
+    height: 51px;
+    background: #fff;
+    border-radius: 5px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  .btn-dark,
+  .btn-light {
+    width: 162px;
+    height: 48px;
+  }
+
+  .search-hero {
+    display: flex;
+    align-items: center;
+    padding: 13px;
+    width: 80%;
+    height: 51px;
+    background: #fff;
+    border-radius: 5px;
+  }
+}

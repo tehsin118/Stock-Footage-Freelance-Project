@@ -1,0 +1,219 @@
+ .navbar {
+     background: #FFA800;
+     padding: 1.2rem 0;
+
+ }
+
+ .search {
+     display: flex;
+     align-items: center;
+     padding: 13px;
+     width: 70%;
+     height: 51px;
+     background: #A26A00;
+     border-radius: 10px;
+
+ }
+
+
+ .search .input {
+     background: transparent;
+     border: none;
+     outline: none;
+     width: 100%;
+     font-weight: 600;
+     font-size: 16px;
+     transition: 0.8s;
+     color: #FFF3DC;
+
+
+ }
+
+ .search .btn .fas {
+     color: #fff;
+ }
+
+
+ .rightbar {
+     display: flex;
+     justify-content: space-evenly;
+ }
+
+ .usericon img {
+     border-radius: 50%;
+     margin-right: 20px;
+     cursor: pointer;
+ }
+
+ .usericon a {
+     color: #fff;
+     font-size: 1.2rem;
+     font-weight: 600;
+     text-decoration: none;
+ }
+
+ /* -------------------------- Modal Login */
+
+
+ /* -----------------------Buy Product Modal CSS */
+ .modal-content {
+     position: relative;
+
+ }
+
+ .modal-header {
+     background: #FFA800;
+     border-bottom: none;
+     position: absolute;
+     z-index: 1;
+     left: 0px;
+     top: 0px;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+
+
+ }
+
+
+
+ .modal-header h5 {
+
+     font-style: normal;
+     font-weight: 600;
+     font-size: 25px;
+     letter-spacing: .8px;
+     border: none;
+
+ }
+
+
+ /* ----------------------- Modal Body CSS */
+ .modal-body {
+     font-weight: 600;
+     font-size: 20px;
+     margin-bottom: 10px;
+     margin-top: 90px;
+ }
+
+ .modal-body label {
+     font-weight: 600;
+     font-size: 20px;
+     margin-bottom: 10px;
+
+ }
+
+ .modal-title {
+     font-style: normal;
+     font-weight: 500;
+     font-size: 25px;
+     color: #FFFFFF;
+ }
+
+ .input-icons {
+     display: flex;
+     align-items: center;
+     padding: 13px;
+     width: 100%;
+     height: 70px;
+     background: #4A4A4A;
+     border-radius: 10px;
+
+ }
+
+ .input-icons .input {
+     background: transparent;
+     border: none;
+     outline: none;
+     width: 100%;
+     font-weight: 600;
+     font-size: 16px;
+     transition: 0.8s;
+     font-family: 'Poppins';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 20px;
+     color: #8D8D8D;
+     padding: 20px 0;
+ }
+
+ .input-icons .btn {
+     color: #8D8D8D;
+     font-size: 20px;
+ }
+
+ .keep-login label {
+     font-weight: 400;
+     font-size: 18px;
+     color: #FCFCFC;
+ }
+
+ .keep-login #keeplogin {
+     padding: 10px;
+     transform: scale(1.5);
+     margin-right: 20px;
+     background: #FFA800;
+ }
+
+ .modal-footer {
+     border-top: none;
+     background: #333333;
+ }
+
+ .modal-footer .btn-dark {
+
+     box-shadow: none;
+
+ }
+
+ @media screen and (max-width: 767px) {
+     .rightbar {
+         display: flex;
+         flex-direction: column;
+     }
+
+     .usericon {
+         margin-top: 20px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+     }
+
+
+     .search {
+         display: flex;
+         align-items: center;
+         padding: 13px;
+         width: 100%;
+         height: 51px;
+         background: #A26A00;
+         border-radius: 10px;
+         margin-top: 20px;
+
+     }
+ }
+
+ @media screen and (max-width: 600px) {
+     .rightbar {
+         display: flex;
+         flex-direction: column;
+     }
+
+     .usericon {
+         margin-top: 20px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+     }
+
+     .search {
+         display: flex;
+         align-items: center;
+         padding: 13px;
+         width: 100%;
+         height: 51px;
+         background: #A26A00;
+         border-radius: 10px;
+         margin-top: 20px;
+     }
+ }

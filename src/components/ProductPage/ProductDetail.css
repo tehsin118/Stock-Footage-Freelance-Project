@@ -1,0 +1,157 @@
+.productDetailPage {
+  background-color: #333333;
+}
+.productDetailPage .branding h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  color: #ffffff;
+}
+.productDetailPage .branding h5 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 120%;
+  color: #ffffff;
+}
+.imgProduct img {
+  width: 100%;
+}
+
+.discription {
+  padding: 0 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.buyProduct {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 7px 2px;
+  background: #005083;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+  transition: 0.5s ease;
+}
+
+.buyProduct:hover {
+  color: #005083;
+  background: #fff;
+  border: 1px solid #005083;
+}
+
+.productDetailPage .product-detail .discription p {
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #bdbdbd;
+  width: 100%;
+}
+
+.sub-category .sub-cat a {
+  color: #fff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  transition: 0.3s ease;
+}
+
+.sub-category .sub-cat a:hover {
+  color: #ffa800;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  margin-top: 100px;
+}
+
+.sub-category .sub-cat {
+  margin-top: 20px;
+}
+
+.product-detail .price-time h5 {
+  color: #ffffff;
+}
+
+@media screen and (max-width: 992px) {
+  .discription {
+    margin: 20px 0;
+    padding: 20px;
+  }
+
+  .productDetailPage .product-detail .discription p {
+    text-align: justify;
+  }
+
+  .productDetailPage .product-detail .price-time {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .price-time h5 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sub-category {
+    margin-bottom: 20px;
+  }
+}
+
+/* -----------------------Buy Product Modal CSS */
+.modal-dialog .modal-content {
+  background: #333333;
+}
+.modal-header {
+  background: #ffa800;
+  border-bottom: none;
+  position: absolute;
+  z-index: 1;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+}
+
+.modal-header h5 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  letter-spacing: 0.8px;
+  color: #fff;
+}
+
+.modal-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.modal-body,
+.modal-footer {
+  background: #333333;
+  color: #fff;
+}
+
+.modal-body .deatil h6 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.modal-body .deatil p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #bdbdbd;
+}

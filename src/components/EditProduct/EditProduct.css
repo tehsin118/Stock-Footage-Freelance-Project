@@ -1,0 +1,48 @@
+.editProduct {
+    background: #005083;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.editProduct img {
+    width: 100%;
+}
+
+.editProduct h6 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.editProduct .sub-cats h6 {
+    margin-bottom: 0;
+}
+
+.editProduct .pricing {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.editProduct .btns {
+    display: flex;
+    flex-direction: column;
+    /* margin-bottom: -30px; */
+}
+
+.editProduct .btns :first-child {
+    margin-bottom: 30px;
+}
+
+.editProduct .sub-cats {
+    display: flex;
+}
+
+.editProduct .sub-cats p {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: 0 20px;
+}

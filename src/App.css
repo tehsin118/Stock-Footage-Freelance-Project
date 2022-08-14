@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: #333333;
+}
+a {
+  text-decoration: none;
+}
+p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff3dc;
+}
+
+.btn-dark {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  align-items: center;
+  padding: 15px 35px;
+  width: 182px;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffa800;
+  box-shadow: 0px 3px 30px rgba(31, 165, 255, 0.2);
+  border-radius: 10px;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.btn-dark:hover {
+  border: 1px solid #ffa800;
+  color: #ffa800;
+  background: transparent;
+}
+
+.btn-light {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  align-items: center;
+  padding: 15px 35px;
+  width: 182px;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background: #ffa800; */
+  border: 1px solid #ffa800;
+  color: #ffa800;
+  box-shadow: 0px 3px 30px rgba(31, 165, 255, 0.2);
+  border-radius: 10px;
+
+  transition: all 0.3s ease;
+}
+
+.btn-light:hover {
+  color: #fff;
+  background: #ffa800;
+}
+
+/* ------------------ Product Detail */
+.modal-dialog .modal-content {
+  background: #333333;
+}
+.btn i:hover {
+  outline: none;
+  border: none;
+}
+.fas:hover {
+  outline: none;
+  border: none;
+}
